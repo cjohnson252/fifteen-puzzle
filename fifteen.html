@@ -1,0 +1,50 @@
+<!--Extra Feature: Multiple Backgrounds-->
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" media="all" href="fifteen.css"/>
+	<script src="fifteen.js"></script>
+	<title>Fifteen</title>
+</head>
+<body onload="load();">
+	<div class="table">
+        <div class="row">
+            <div class="cell" id="1" onclick="play(1)">1</div>
+            <div class="cell" id="2" onclick="play(2)">2</div>
+            <div class="cell" id="3" onclick="play(3)">3</div>
+            <div class="cell" id="4" onclick="play(4)">4</div>
+        </div>
+        <div class="row">
+			<div class="cell" id="5" onclick="play(5)">5</div>
+            <div class="cell" id="6" onclick="play(6)">6</div>
+            <div class="cell" id="7" onclick="play(7)">7</div>
+            <div class="cell" id="8" onclick="play(8)">8</div>
+        </div>
+        <div class="row">
+            <div class="cell" id="9" onclick="play(9)">9</div>
+            <div class="cell" id="10" onclick="play(10)">10</div>
+            <div class="cell" id="11" onclick="play(11)">11</div>
+            <div class="cell" id="12" onclick="play(12)">12</div>
+        </div>
+        <div class="row">
+            <div class="cell" id="13" onclick="play(13)">13</div>
+            <div class="cell" id="14" onclick="play(14)">14</div>
+            <div class="cell" id="15" onclick="play(15)">15</div>
+            <div class="cell" id="_16" onclick="play(16)">16</div>
+        </div>
+    </div>
+	<br>
+	<form>
+		<input type="submit" value="Shuffle" onclick="shuffle(); return false;">
+		<br>
+		<br>
+		<label>Image: </label>
+		<select id="selector" onchange="backgroundImg();">
+			<option value="background1.jpg">Kitten</option>
+			<option value="background2.jpg">Piglet</option>
+			<option value="background3.jpg">Puppy</option>
+			<option value="background4.jpg">Hedgehog</option>
+		</select>
+	</form>
+</body>
+</html>

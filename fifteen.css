@@ -1,0 +1,39 @@
+body {
+	background-color: #d1d1e0;
+	text-align: center;
+}
+#_16 {
+	background-image: none;
+	background-color: white;
+}
+.moveable:hover {
+	border-color: red;
+	text-decoration: underline;
+	color: #006600
+}
+.table {
+	display: table;         
+	width: auto;                 
+	border: 2px solid black;         
+	width: 408px;
+	height: 408px;
+	margin: auto;
+}
+.row {
+	display: table-row;
+	width: auto;
+	clear: both;
+}
+.cell {
+	float: left; 
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	display: table-column;  
+	border: 1px solid black;
+	font-size: 32px;
+	color: white;
+	background-image: url('background1.jpg');
+}
+
+
